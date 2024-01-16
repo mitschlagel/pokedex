@@ -13,6 +13,8 @@
 		F70E48CA2B54EBBA00364A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E48C82B54EBBA00364A67 /* Main.storyboard */; };
 		F70E48CC2B54EBBD00364A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70E48CB2B54EBBD00364A67 /* Assets.xcassets */; };
 		F70E48CF2B54EBBD00364A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70E48CD2B54EBBD00364A67 /* LaunchScreen.storyboard */; };
+		F70E48D72B54EF2400364A67 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E48D62B54EF2400364A67 /* Pokemon.swift */; };
+		F70E48D92B54F3CE00364A67 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E48D82B54F3CE00364A67 /* PokemonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F70E48CB2B54EBBD00364A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F70E48CE2B54EBBD00364A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70E48D02B54EBBD00364A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70E48D62B54EF2400364A67 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		F70E48D82B54F3CE00364A67 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F70E48CB2B54EBBD00364A67 /* Assets.xcassets */,
 				F70E48CD2B54EBBD00364A67 /* LaunchScreen.storyboard */,
 				F70E48D02B54EBBD00364A67 /* Info.plist */,
+				F70E48D62B54EF2400364A67 /* Pokemon.swift */,
+				F70E48D82B54F3CE00364A67 /* PokemonViewController.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70E48C72B54EBBA00364A67 /* ViewController.swift in Sources */,
+				F70E48D92B54F3CE00364A67 /* PokemonViewController.swift in Sources */,
+				F70E48D72B54EF2400364A67 /* Pokemon.swift in Sources */,
 				F70E48C32B54EBBA00364A67 /* AppDelegate.swift in Sources */,
 				F70E48C52B54EBBA00364A67 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DX765HMQD2;
+				DEVELOPMENT_TEAM = 2X792CPSD3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DX765HMQD2;
+				DEVELOPMENT_TEAM = 2X792CPSD3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

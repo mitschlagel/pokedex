@@ -5,13 +5,14 @@
 //  Created by Spencer Jones on 1/14/24.
 //
 
+// Think this as "main" from C
+
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
